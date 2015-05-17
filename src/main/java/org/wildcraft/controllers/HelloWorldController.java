@@ -9,6 +9,6 @@ public class HelloWorldController {
 
 	@RequestMapping("/sayHello")
 	public @ResponseBody String sayHello() {
-		return "Hello World!!!";
+		return "Hello World!!!, My name is \"REST Producer\"";
 	}
 }
