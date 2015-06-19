@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 /**
  * A service to save, find and get documents from an archive. 
  * 
- * @author Daniel Murygin <daniel.murygin[at]gmail[dot]com>
+ * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
  */
 @Service("archiveService")
 public class ArchiveService implements IArchiveService, Serializable {
@@ -22,7 +22,7 @@ public class ArchiveService implements IArchiveService, Serializable {
 
     /**
      * Saves a document in the archive.
-     * @see org.murygin.archive.service.IArchiveService#save(org.murygin.archive.service.Document)
+     *
      */
     @Override
     public DocumentMetadata save(Document document) {
@@ -32,7 +32,7 @@ public class ArchiveService implements IArchiveService, Serializable {
     
     /**
      * Finds document in the archive
-     * @see org.murygin.archive.service.IArchiveService#findDocuments(java.lang.String, java.util.Date)
+     *
      */
     @Override
     public List<DocumentMetadata> findDocuments(String personName, Date date) {
@@ -41,7 +41,7 @@ public class ArchiveService implements IArchiveService, Serializable {
     
     /**
      * Returns the document file from the archive
-     * @see org.murygin.archive.service.IArchiveService#getDocumentFile(java.lang.String)
+     *
      */
     @Override
     public byte[] getDocumentFile(String id) {

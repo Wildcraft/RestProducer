@@ -8,7 +8,7 @@ import org.wildcraft.service.DocumentMetadata;
 /**
  * Data access object to insert, find and load {@link Document}s
  * 
- * @author Daniel Murygin <daniel.murygin[at]gmail[dot]com>
+ * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
  */
 public interface IDocumentDao {
 

@@ -32,7 +32,7 @@ import org.springframework.stereotype.Service;
  * Each document in the archive has a Universally Unique Identifier (UUID).
  * The name of the documents folder is the UUID of the document.
  * 
- * @author Daniel Murygin <daniel.murygin[at]gmail[dot]com>
+ * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
  */
 @Service("documentDao")
 public class FileSystemDocumentDao implements IDocumentDao {
@@ -51,8 +51,7 @@ public class FileSystemDocumentDao implements IDocumentDao {
      * Inserts a document to the archive by creating a folder with the UUID
      * of the document. In the folder the document is saved and a properties file
      * with the meta data of the document. 
-     * 
-     * @see org.murygin.archive.dao.IDocumentDao#insert(org.murygin.archive.service.Document)
+     *
      */
     @Override
     public void insert(Document document) {
@@ -72,7 +71,7 @@ public class FileSystemDocumentDao implements IDocumentDao {
      * To find a document all document meta data sets are iterated to check if they match
      * the parameter.
      * 
-     * @see org.murygin.archive.dao.IDocumentDao#findByPersonNameDate(java.lang.String, java.util.Date)
+     * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
      */
     @Override
     public List<DocumentMetadata> findByPersonNameDate(String personName, Date date) {
@@ -87,8 +86,7 @@ public class FileSystemDocumentDao implements IDocumentDao {
     
     /**
      * Returns the document from the data store with the given UUID.
-     * 
-     * @see org.murygin.archive.dao.IDocumentDao#load(java.lang.String)
+     *
      */
     @Override
     public Document load(String uuid) {

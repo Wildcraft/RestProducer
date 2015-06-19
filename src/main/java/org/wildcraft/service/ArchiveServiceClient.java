@@ -19,7 +19,7 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * @author Daniel Murygin <dm[at]sernet[dot]de>
+ * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
  *
  */
 public class ArchiveServiceClient implements IArchiveService {

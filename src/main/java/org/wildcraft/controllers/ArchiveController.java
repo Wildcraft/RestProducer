@@ -38,7 +38,7 @@ import org.springframework.web.multipart.MultipartFile;
  * 
  * All service calls are delegated to instances of {@link IArchiveService}.
  * 
- * @author Daniel Murygin <daniel.murygin[at]gmail[dot]com>
+ * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
  */
 @Controller
 @RequestMapping(value = "/archive")

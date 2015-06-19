@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * A service to save, find and get documents from an archive. 
  * 
- * @author Daniel Murygin <daniel.murygin[at]gmail[dot]com>
+ * @author Narendran Solai <narendran.ss[at]gmail[dot]com>
  */
 public interface IArchiveService {
     
